@@ -8,17 +8,18 @@ export default function Projects() {
     const projectsData = [
         {
             title : "WebRTC Video Call App" ,
-            deploy : "https://reddit-clone-next-js-fullstack.vercel.app/sign-up",
-            repo : "https://github.com/mrthakur30/Reddit-Clone-Next.js-Fullstack" ,
-            imageUrl : "/1.png",
+            deploy : "https://web-rtc-nextjs-two.vercel.app/",
+            repo : "https://github.com/mrthakur30/webRTC-nextjs" ,
+            
+            imageUrl : "/7.png",
             tags : ["webRTC" , "Socket.io", "Next.js", "Typescript", "Tailwind"] ,
             description : "Used webRTC to implement video calling and socket.io as signaling server"
           },
           {
             title : "Reddit Clone - Next.js" ,
-            deploy : "https://web-rtc-nextjs-two.vercel.app/",
-            repo : "https://github.com/mrthakur30/webRTC-nextjs" ,
-            imageUrl : "/8.png",
+            deploy : "https://reddit-clone-next-js-fullstack.vercel.app/sign-up",
+            repo : "https://github.com/mrthakur30/Reddit-Clone-Next.js-Fullstack" ,
+            imageUrl : "/6.png",
             tags : ["Next.js 13" ,"Prisma", "Typescript", "Tailwind"] ,
             description : "Its a reddit clone where can create and join communities and post what they want"
           },
@@ -27,7 +28,7 @@ export default function Projects() {
             title : "Email Waitlist Site" ,
             deploy : "https://frontend-code-doctor.vercel.app/",
             repo : "https://github.com/mrthakur30/frontend-code-doctor" ,
-            imageUrl : "/7.png",
+            imageUrl : "/8.png",
             tags : ["Next.js", "Express", "Tailwind", "Framer Motion"] ,
             description : "A webpage for getting user email data for wait list and admin dashboard"
           },
@@ -40,6 +41,22 @@ export default function Projects() {
             description : "Made using Spotify API, user can see his top 15 played tracks and artists "
           },
           {
+            title : "Admin Dashboard" ,
+            deploy : "https://admin-dashboard-7whmlncbs-mrthakur30.vercel.app/",
+            repo : "https://github.com/mrthakur30/admin-dashboard-nextjs" ,
+            imageUrl : "/10.png",
+            tags : ["Typescript" ,"Next.js", "Chart.js", "Tailwind","NextAuth"] ,
+            description : "Made an responsive admin dashboard with Google Authentication"
+          },
+          {
+            title : "File Uploader" ,
+            deploy : "https://file-upload-service-0mbf.onrender.com/mypostform",
+            repo : "https://github.com/mrthakur30/file-upload-backend/tree/main" ,
+            imageUrl : "/9.png",
+            tags : ["EJS" ,"Express", "Javascript", "Cloudinary"] ,
+            description : "User can upload files and get links to access them"
+          },
+          {
             title : "Tok Tik" ,
             deploy : "https://unrivaled-paletas-0ca3dd.netlify.app/",
             repo : "https://github.com/mrthakur30/youtube-clone-assignment" ,
@@ -47,6 +64,7 @@ export default function Projects() {
             tags : ["React" ,"Tailwind" , "Vite"] ,
             description : "A video player displaying pages using paginated API and can play videos using HTML5 video"
           },
+          
           {
             title : "Candidate Hiring Site" ,
             deploy : "https://animated-paletas-6e9ffe.netlify.app/",
